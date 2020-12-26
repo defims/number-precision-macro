@@ -1,6 +1,6 @@
 # number-precision-macro
 
-使用[babel macro](https://github.com/kentcdodds/babel-plugin-macros)实现的[number-precision](https://github.com/nefe/number-precision)语法糖，支持类似`(1+1)%2`这样的js表达式写法
+使用[babel macro](https://github.com/kentcdodds/babel-plugin-macros)实现的[number-precision](https://github.com/nefe/number-precision)语法糖，支持类似`(1+1)/2`这样的js表达式写法，而不用使用`NP.divide(NP.plus(1, 1))`。
 
 ## 使用说明
 
