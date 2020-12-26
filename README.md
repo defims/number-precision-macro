@@ -4,6 +4,11 @@
 
 ## 使用说明
 
+### 安装 babel-plugin-macros 包
+```bash
+npm install --save-dev babel-plugin-macros
+```
+
 ### 根据项目情况配置 babel plugin
 参考[babel-plugin-macros Usage for users](https://github.com/kentcdodds/babel-plugin-macros/blob/master/other/docs/user.md)
 
