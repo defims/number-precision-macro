@@ -1,6 +1,6 @@
 # number-precision-macro
 
-使用[babel macro](https://github.com/kentcdodds/babel-plugin-macros)实现的[number-precision](https://github.com/nefe/number-precision)的js表达式语法糖
+使用[babel macro](https://github.com/kentcdodds/babel-plugin-macros)实现的[number-precision](https://github.com/nefe/number-precision)语法糖，支持类似`(1+1)%2`这样的js表达式写法
 
 ## 使用说明
 
@@ -14,7 +14,7 @@ npm install --save-dev babel-plugin-macros
 
 ### 引入并调用
 ```javascript
-import NPM from 'NP.macro'
+import NPM from 'number-precision.macro'
 NPM(1+1)
 ```
 
