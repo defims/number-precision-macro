@@ -12,7 +12,7 @@ npm install --save-dev babel-plugin-macros
 ### 根据项目情况配置 babel plugin
 参考[babel-plugin-macros Usage for users](https://github.com/kentcdodds/babel-plugin-macros/blob/master/other/docs/user.md)
 
-### 引入并调用
+### 引入number-precision.macro.js并调用
 ```javascript
 import NPM from 'number-precision.macro'
 NPM(1+1)
